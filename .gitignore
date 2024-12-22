@@ -1,0 +1,25 @@
+# Général
+*.DS_Store
+Thumbs.db
+*.log
+*.env
+env/
+
+# Backend
+backend/__pycache__/  # Cache Python
+backend/env/          # Environnement virtuel Python
+backend/*.pyc         # Fichiers Python compilés
+backend/*.pyo         # Fichiers Python optimisés
+backend/*.pyd         # Fichiers Python liés aux bibliothèques
+backend/dist/         # Dossier de distribution (si créé)
+backend/build/        # Dossier de build (si créé)
+
+# Frontend
+frontend/node_modules/  # Dépendances Node.js
+frontend/build/         # Fichiers de build
+frontend/coverage/      # Dossier de couverture de tests
+frontend/.env           # Fichiers d'environnement (sensibles)
+frontend/.env.*         # Tous les fichiers .env spécifiques
+frontend/npm-debug.log* # Logs npm
+frontend/yarn-debug.log* # Logs Yarn
+frontend/yarn-error.log* # Erreurs Yarn
