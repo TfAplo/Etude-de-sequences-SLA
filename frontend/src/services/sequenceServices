@@ -1,0 +1,12 @@
+import axios from 'axios';
+//Appels API liés aux sequences
+
+export const getSequences = async () => {
+    const response = await axios.get('/sequences');
+    return response.data;
+};
+
+export const createSequence = async (sequence) => {
+    const response = await axios.post('/sequences', sequence);
+    return response.data;
+};
