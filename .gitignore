@@ -23,3 +23,6 @@ frontend/.env.*         # Tous les fichiers .env spécifiques
 frontend/npm-debug.log* # Logs npm
 frontend/yarn-debug.log* # Logs Yarn
 frontend/yarn-error.log* # Erreurs Yarn
+
+# Data
+*.tar                    # pour l'image docker de la base
